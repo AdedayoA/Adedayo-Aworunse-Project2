@@ -17,7 +17,7 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if let detail = detailItem {
             if let label = detailDescriptionLabel {
-                label.text = detail.description
+                label.text = detail.Name + " " + detail.Description
             }
         }
     }
@@ -33,13 +33,19 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: SwiftTerm? {
         didSet {
             // Update the view.
             configureView()
         }
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSubView1" {
+            let destinationController = segue.destination as! SubViewController
+            destinationController.subViewVariable = detailItem
+        }
+    }
 
 }
 

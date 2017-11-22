@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423DCEEC1FC3D01300C8C0CE /* SwiftTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423DCEEB1FC3D01300C8C0CE /* SwiftTerm.swift */; };
+		423DCEEE1FC3D4E200C8C0CE /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */; };
 		42BF44EA1FA959A00058DC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44E91FA959A00058DC0F /* AppDelegate.swift */; };
 		42BF44EC1FA959A00058DC0F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44EB1FA959A00058DC0F /* MasterViewController.swift */; };
 		42BF44EE1FA959A00058DC0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44ED1FA959A00058DC0F /* DetailViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		423DCEEB1FC3D01300C8C0CE /* SwiftTerm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTerm.swift; sourceTree = "<group>"; };
+		423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		42BF44E61FA959A00058DC0F /* Adedayo Aworunse Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adedayo Aworunse Project2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BF44E91FA959A00058DC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BF44EB1FA959A00058DC0F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				42BF44F21FA959A00058DC0F /* Assets.xcassets */,
 				42BF44F41FA959A00058DC0F /* LaunchScreen.storyboard */,
 				42BF44F71FA959A00058DC0F /* Info.plist */,
+				423DCEEB1FC3D01300C8C0CE /* SwiftTerm.swift */,
+				423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */,
 			);
 			path = "Adedayo Aworunse Project2";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423DCEEC1FC3D01300C8C0CE /* SwiftTerm.swift in Sources */,
 				42BF44EE1FA959A00058DC0F /* DetailViewController.swift in Sources */,
+				423DCEEE1FC3D4E200C8C0CE /* SubViewController.swift in Sources */,
 				42BF44EC1FA959A00058DC0F /* MasterViewController.swift in Sources */,
 				42BF44EA1FA959A00058DC0F /* AppDelegate.swift in Sources */,
 			);
