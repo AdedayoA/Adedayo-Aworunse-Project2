@@ -4,7 +4,7 @@
 //
 //  Created by Adedayo on 11/20/17.
 //  Copyright © 2017 Adedayo. All rights reserved.
-//
+//github test
 import Foundation
 class SwiftTerm {
     var ID:Int = 0
