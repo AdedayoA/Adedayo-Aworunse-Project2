@@ -17,7 +17,7 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if let detail = detailItem {
             if let label = detailDescriptionLabel {
-                label.text = detail.Name + " " + detail.Description
+                label.text = detail.LocalizedName
             }
         }
     }
@@ -33,7 +33,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: SwiftTerm? {
+    var detailItem: Weather? {
         didSet {
             // Update the view.
             configureView()

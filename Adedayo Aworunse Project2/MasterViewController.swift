@@ -11,37 +11,37 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    var SwiftTerms = [SwiftTerm]()
+    var Weathers = [Weather]()
 
-    func PopulateSwiftTerms() {
+    func PopulateWeathers() {
         
-        let urlString = "https://api.myjson.com/bins/fzr7r"
+        let urlString = "https://api.myjson.com/bins/xxhcv"
         let jsURL:URL = URL(string: urlString)!
         let jsonUrlData = try? Data (contentsOf: jsURL)
-        print(jsonUrlData ?? "ERROR: No data To Print. JSONURLData is Nil")
+        print(jsonUrlData ?? "ERROR: No Data To Print. JSONURLData is Nil")
+        
         if(jsonUrlData != nil){
-            let dictionary:NSDictionary = (try! JSONSerialization.jsonObject(with:
-                jsonUrlData!, options: JSONSerialization.ReadingOptions.mutableContainers))
-                as! NSDictionary
+            let dictionary:NSDictionary = //Dictionary<String,AnyObject>
+                (try! JSONSerialization.jsonObject(with: jsonUrlData!, options: JSONSerialization.ReadingOptions.mutableContainers)) as! NSDictionary //Dictionary<String,AnyObject>
             print(dictionary)
             
-            let swiftTermDetails = dictionary["SwiftTerms"] as! [[String:AnyObject]]
+            var weatherDetails = dictionary["Weathers"] as! [[String:AnyObject]]
             
-            for index in 0...swiftTermDetails.count - 1
+            for index in 0...weatherDetails.count - 1
             {
-                let single = swiftTermDetails[index]
-                let st = SwiftTerm()
-                st.ID = single["TermID"] as! Int
-                st.Name = single["TermName"] as! String
-                st.Description = single["TermDescription"] as! String
-                SwiftTerms.append(st)
+                let single = weatherDetails[index]
+                let st = Weather()
+                st.Key = single["Key"] as! String
+                st.LocalizedName = single["LocalizedName"] as! String
+                //st.PrimaryPostalCode = single["PrimaryPostalCode"] as! String
+                Weathers.append(st)
             }
         }
     }
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        PopulateSwiftTerms()
+        PopulateWeathers()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -59,7 +59,7 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let object = SwiftTerms[indexPath.row]
+                let object = Weathers[indexPath.row]
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
                 controller.navigationItem.leftItemsSupplementBackButton = true
@@ -74,14 +74,14 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return SwiftTerms.count
+        return Weathers.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        let object = SwiftTerms[indexPath.row]
-        cell.textLabel!.text = object.Name
-        cell.detailTextLabel!.text = object.Description
+        let object = Weathers[indexPath.row]
+        cell.textLabel!.text = object.LocalizedName
+        cell.detailTextLabel!.text = object.Key
         return cell
     }
     

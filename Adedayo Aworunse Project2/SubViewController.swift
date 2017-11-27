@@ -13,8 +13,8 @@ class SubViewController : UIViewController {
     
     override func viewDidLoad(){
         if subViewVariable != nil{
-            lblSubViewLabel.text = subViewVariable?.Description
+            lblSubViewLabel.text = subViewVariable?.LocalizedName
         }
     }
-    var subViewVariable: SwiftTerm? = nil
+    var subViewVariable: Weather? = nil
 }

@@ -15,6 +15,7 @@
 		42BF44F11FA959A00058DC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44EF1FA959A00058DC0F /* Main.storyboard */; };
 		42BF44F31FA959A00058DC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44F21FA959A00058DC0F /* Assets.xcassets */; };
 		42BF44F61FA959A00058DC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44F41FA959A00058DC0F /* LaunchScreen.storyboard */; };
+		42C8CB171FC9278D00A22EEA /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C8CB161FC9278D00A22EEA /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		42BF44F21FA959A00058DC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BF44F51FA959A00058DC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BF44F71FA959A00058DC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C8CB161FC9278D00A22EEA /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				42BF44F71FA959A00058DC0F /* Info.plist */,
 				423DCEEB1FC3D01300C8C0CE /* SwiftTerm.swift */,
 				423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */,
+				42C8CB161FC9278D00A22EEA /* Weather.swift */,
 			);
 			path = "Adedayo Aworunse Project2";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				42BF44EE1FA959A00058DC0F /* DetailViewController.swift in Sources */,
 				423DCEEE1FC3D4E200C8C0CE /* SubViewController.swift in Sources */,
 				42BF44EC1FA959A00058DC0F /* MasterViewController.swift in Sources */,
+				42C8CB171FC9278D00A22EEA /* Weather.swift in Sources */,
 				42BF44EA1FA959A00058DC0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
