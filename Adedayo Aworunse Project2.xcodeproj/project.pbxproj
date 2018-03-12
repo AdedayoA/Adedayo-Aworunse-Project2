@@ -8,45 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		423DCEEE1FC3D4E200C8C0CE /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */; };
-		424AD2F61FD5C30F004AC2DB /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2F51FD5C30E004AC2DB /* s.png */; };
-		424AD3001FD5C459004AC2DB /* lr.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2F71FD5C458004AC2DB /* lr.png */; };
-		424AD3011FD5C459004AC2DB /* sn.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2F81FD5C458004AC2DB /* sn.png */; };
-		424AD3021FD5C459004AC2DB /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2F91FD5C458004AC2DB /* t.png */; };
-		424AD3031FD5C459004AC2DB /* sl.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FA1FD5C458004AC2DB /* sl.png */; };
-		424AD3041FD5C459004AC2DB /* hr.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FB1FD5C458004AC2DB /* hr.png */; };
-		424AD3051FD5C459004AC2DB /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FC1FD5C458004AC2DB /* c.png */; };
-		424AD3061FD5C459004AC2DB /* h.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FD1FD5C459004AC2DB /* h.png */; };
-		424AD3071FD5C459004AC2DB /* hc.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FE1FD5C459004AC2DB /* hc.png */; };
-		424AD3081FD5C459004AC2DB /* lc.png in Resources */ = {isa = PBXBuildFile; fileRef = 424AD2FF1FD5C459004AC2DB /* lc.png */; };
-		424AD31C1FD5E8B5004AC2DB /* Wind.wav in Resources */ = {isa = PBXBuildFile; fileRef = 424AD31B1FD5E8B5004AC2DB /* Wind.wav */; };
 		42BF44EA1FA959A00058DC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44E91FA959A00058DC0F /* AppDelegate.swift */; };
 		42BF44EC1FA959A00058DC0F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44EB1FA959A00058DC0F /* MasterViewController.swift */; };
 		42BF44EE1FA959A00058DC0F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF44ED1FA959A00058DC0F /* DetailViewController.swift */; };
 		42BF44F11FA959A00058DC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44EF1FA959A00058DC0F /* Main.storyboard */; };
-		42BF44F31FA959A00058DC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44F21FA959A00058DC0F /* Assets.xcassets */; };
+		42BF44F31FA959A00058DC0F /* Wind.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44F21FA959A00058DC0F /* Wind.wav */; };
 		42BF44F61FA959A00058DC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BF44F41FA959A00058DC0F /* LaunchScreen.storyboard */; };
 		42C8CB171FC9278D00A22EEA /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C8CB161FC9278D00A22EEA /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
-		424AD2F51FD5C30E004AC2DB /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s.png; path = ../../../../../../Pictures/Project/s.png; sourceTree = "<group>"; };
-		424AD2F71FD5C458004AC2DB /* lr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lr.png; path = ../../../../../../Pictures/Project/lr.png; sourceTree = "<group>"; };
-		424AD2F81FD5C458004AC2DB /* sn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sn.png; path = ../../../../../../Pictures/Project/sn.png; sourceTree = "<group>"; };
-		424AD2F91FD5C458004AC2DB /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t.png; path = ../../../../../../Pictures/Project/t.png; sourceTree = "<group>"; };
-		424AD2FA1FD5C458004AC2DB /* sl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sl.png; path = ../../../../../../Pictures/Project/sl.png; sourceTree = "<group>"; };
-		424AD2FB1FD5C458004AC2DB /* hr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hr.png; path = ../../../../../../Pictures/Project/hr.png; sourceTree = "<group>"; };
-		424AD2FC1FD5C458004AC2DB /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c.png; path = ../../../../../../Pictures/Project/c.png; sourceTree = "<group>"; };
-		424AD2FD1FD5C459004AC2DB /* h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = h.png; path = ../../../../../../Pictures/Project/h.png; sourceTree = "<group>"; };
-		424AD2FE1FD5C459004AC2DB /* hc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hc.png; path = ../../../../../../Pictures/Project/hc.png; sourceTree = "<group>"; };
-		424AD2FF1FD5C459004AC2DB /* lc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lc.png; path = ../../../../../../Pictures/Project/lc.png; sourceTree = "<group>"; };
-		424AD31B1FD5E8B5004AC2DB /* Wind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Wind.wav; path = ../../../../Wind.wav; sourceTree = "<group>"; };
 		42BF44E61FA959A00058DC0F /* Adedayo Aworunse Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adedayo Aworunse Project2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BF44E91FA959A00058DC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BF44EB1FA959A00058DC0F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		42BF44ED1FA959A00058DC0F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		42BF44F01FA959A00058DC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42BF44F21FA959A00058DC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BF44F21FA959A00058DC0F /* Wind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Wind.wav; path = Assets.xcassets/Wind.dataset/Wind.wav; sourceTree = "<group>"; };
 		42BF44F51FA959A00058DC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BF44F71FA959A00058DC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42C8CB161FC9278D00A22EEA /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -82,22 +60,11 @@
 		42BF44E81FA959A00058DC0F /* Adedayo Aworunse Project2 */ = {
 			isa = PBXGroup;
 			children = (
-				424AD2F51FD5C30E004AC2DB /* s.png */,
-				424AD2FC1FD5C458004AC2DB /* c.png */,
-				424AD2FD1FD5C459004AC2DB /* h.png */,
-				424AD2FE1FD5C459004AC2DB /* hc.png */,
-				424AD2FB1FD5C458004AC2DB /* hr.png */,
-				424AD2FF1FD5C459004AC2DB /* lc.png */,
-				424AD2F71FD5C458004AC2DB /* lr.png */,
-				424AD2FA1FD5C458004AC2DB /* sl.png */,
-				424AD2F81FD5C458004AC2DB /* sn.png */,
-				424AD31B1FD5E8B5004AC2DB /* Wind.wav */,
-				424AD2F91FD5C458004AC2DB /* t.png */,
 				42BF44E91FA959A00058DC0F /* AppDelegate.swift */,
 				42BF44EB1FA959A00058DC0F /* MasterViewController.swift */,
 				42BF44ED1FA959A00058DC0F /* DetailViewController.swift */,
 				42BF44EF1FA959A00058DC0F /* Main.storyboard */,
-				42BF44F21FA959A00058DC0F /* Assets.xcassets */,
+				42BF44F21FA959A00058DC0F /* Wind.wav */,
 				42BF44F41FA959A00058DC0F /* LaunchScreen.storyboard */,
 				42BF44F71FA959A00058DC0F /* Info.plist */,
 				423DCEED1FC3D4E200C8C0CE /* SubViewController.swift */,
@@ -165,20 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424AD3081FD5C459004AC2DB /* lc.png in Resources */,
-				424AD3071FD5C459004AC2DB /* hc.png in Resources */,
-				424AD3061FD5C459004AC2DB /* h.png in Resources */,
-				424AD3031FD5C459004AC2DB /* sl.png in Resources */,
-				424AD3011FD5C459004AC2DB /* sn.png in Resources */,
-				424AD3001FD5C459004AC2DB /* lr.png in Resources */,
 				42BF44F61FA959A00058DC0F /* LaunchScreen.storyboard in Resources */,
-				42BF44F31FA959A00058DC0F /* Assets.xcassets in Resources */,
-				424AD31C1FD5E8B5004AC2DB /* Wind.wav in Resources */,
-				424AD3021FD5C459004AC2DB /* t.png in Resources */,
-				424AD3041FD5C459004AC2DB /* hr.png in Resources */,
-				424AD2F61FD5C30F004AC2DB /* s.png in Resources */,
+				42BF44F31FA959A00058DC0F /* Wind.wav in Resources */,
 				42BF44F11FA959A00058DC0F /* Main.storyboard in Resources */,
-				424AD3051FD5C459004AC2DB /* c.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
